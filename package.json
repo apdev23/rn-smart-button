@@ -1,0 +1,35 @@
+{
+  "name": "rn-smart-button",
+  "version": "1.0.1",
+  "description": "A customizable React Native button with TypeScript, dark mode, themes, icons, and style overrides.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --hideBreadcrumbs --out docs src"
+  },
+  "keywords": [
+    "react-native",
+    "button",
+    "typescript",
+    "theme",
+    "dark-mode",
+    "customizable"
+  ],
+  "author": "APDev",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-native": "^0.72.8",
+    "typedoc": "^0.28.12",
+    "typedoc-plugin-markdown": "^4.8.1",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
